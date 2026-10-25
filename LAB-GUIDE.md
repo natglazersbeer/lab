@@ -1,3 +1,4 @@
+
 # Lab guide
 
 You'll build a **Warehouse Management** app on Power Platform: tables, server-side rules, security roles, an app for managers, an app for floor workers, and a barcode lookup. Everything is source code in your own copy of this repository, and every change reaches `main` through a pull request.
