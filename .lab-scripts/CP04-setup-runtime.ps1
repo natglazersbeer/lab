@@ -125,9 +125,8 @@ foreach ($key in $envs.Keys) {
     Write-Ok "$key ready: $url"
 
     # Code apps are off by default; the Warehouse Picking code app won't run without them.
-    # TEMP: disabled - the settings API kept returning 429; code apps enabled by hand in the admin center. Restore in a follow-up PR.
-    # txc env setting set PowerApps_AllowCodeApps true --profile $key 2>&1 | Out-Null
-    # if ($LASTEXITCODE -ne 0) { Write-Err "Failed to enable code apps on $key"; exit 1 }
+    txc env setting set PowerApps_AllowCodeApps true --profile $key 2>&1 | Out-Null
+    if ($LASTEXITCODE -ne 0) { Write-Err "Failed to enable code apps on $key"; exit 1 }
 }
 
 # Pin the dev profile as default for local deploys.
