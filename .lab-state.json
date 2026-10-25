@@ -6,5 +6,13 @@
   "publisherPrefix": "lab",
   "repo": "natglazersbeer/lab",
   "mainRulesetId": 25828796,
-  "mainRulesetName": "lab-main-protection"
+  "mainRulesetName": "lab-main-protection",
+  "devEnvUrl": "https://wm-dev-4363.crm.dynamics.com",
+  "devEnvId": "770a452a-5210-e270-9ab2-6265292bd814",
+  "devOrgId": "085f4766-96d0-f111-be87-000d3a5cb405",
+  "devProfile": "dev",
+  "testEnvUrl": "https://wm-test-4363.crm.dynamics.com",
+  "testEnvId": "c2349a38-ca0b-e9b9-845a-c211bb3cc50f",
+  "testOrgId": "2e53b67e-98d0-f111-a04e-6045bd00310f",
+  "testProfile": "test"
 }
